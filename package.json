@@ -87,6 +87,7 @@
     "budgetPercentIncreaseRed": 10,
     "showDetails": true
   },
+  "engines" : { "node" : ">=16.0" } ,
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "prettier --write",
